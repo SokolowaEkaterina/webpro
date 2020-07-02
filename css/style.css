@@ -126,11 +126,19 @@ h1{
 
 }
 
+<<<<<<< HEAD
 /*.backg_img{
     background-image: url(../Free-Modern-Website.jpg);
     background-repeat: no-repeat;
     background-position: center top;
 }*/
+=======
+.backg_img{
+    background-image: url(../Free-Modern-Website.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+>>>>>>> 3235a765d652c22ccab05ab6b9325b2583ae3887
 
 .containere{
     max-width: 70%;
