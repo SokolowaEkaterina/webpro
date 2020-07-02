@@ -1,0 +1,138 @@
+html{
+	color:#000;
+	background:#FFF;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,
+h4,h5,h6,pre,code,form,fieldset,legend,input,
+textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+fieldset,
+img {
+	border:0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ 
+ol,ul {
+	list-style:none;
+}
+ 
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,
+h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,
+q:after {
+	content:'';
+}
+abbr,
+acronym {
+	border:0;
+	font-variant:normal;
+}
+
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+input,
+textarea,
+select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	*font-size:100%;
+}
+
+legend {
+	color:#000;	
+}
+
+
+/*///////////////////////////////
+/////////////////////////////////////////*/
+@font-face {
+	font-family: 'Avant-Garde';
+	src: url('../fonts/Avant_Garde/Avant-Garde-Bold.eot');
+    src:url('../fonts/Avant_Garde/Avant-Garde-Bold.woff') format('woff'),
+        url('../fonts/Avant_Garde/Avant-Garde-Bold.ttf') format('truetype'),
+        url('../fonts/Avant_Garde/Avant-Garde-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/bold/Lato-Bold.eot');
+    src: url('../fonts/Lato/bold/Lato-Bold.woff') format('woff'),
+         url('../fonts/Lato/bold/Lato-Bold.ttf') format('truetype'),
+         url('../fonts/Lato/bold/Lato-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/regular/Lato-Regular.eot');
+    src: url('../fonts/Lato/regular/Lato-Regular.woff') format('woff'), 
+         url('../fonts/Lato/regular/Lato-Regular.ttf') format('truetype'),
+         url('../fonts/Lato/regular/Lato-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/light/Lato-Light.eot');
+    src: url('../fonts/Lato/light/Lato-Light.woff') format('woff'),
+         url('../fonts/Lato/light/Lato-Light.ttf') format('truetype'),
+         url('../fonts/Lato/light/Lato-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-SemiBold.eot');
+    src: url('../fonts/Montserrat/Montserrat-SemiBold.woff') format('woff'),
+         url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype'),
+         url('../fonts/Montserrat/Montserrat-SemiBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 600;
+
+}
+
+.backg_img{
+    background-image: url(../Free-Modern-Website.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.containere{
+    max-width: 70%;
+    margin: auto;
+}
