@@ -129,15 +129,16 @@ body{
 }
 
 
-.backg_img{
+/*.backg_img{
     background-image: url(../Free-Modern-Website.jpg);
     background-repeat: no-repeat;
     background-position: center top;
-}
+}*/
 
 .containere {
-	margin: auto;
-	max-width: 70%;
+	margin: 0 auto;
+	/*max-width: 70%;*/
+	max-width: 1333px;
 }
 
 a{
@@ -229,7 +230,6 @@ li{
 }
 
 .soc_ikons{
-	/*width: 8.06%;*/
 	width: 12%;
 	padding-top: 3.8%;
 	margin-left: 31.8%;
@@ -338,7 +338,7 @@ h1{
 	display: flex;
 	flex-wrap: wrap;
 	background-color:#f56131;
-	width: 100%;
+	width: 96%;
 	margin-left:26%;
 }
 
@@ -618,10 +618,10 @@ h1{
 	content: "";
 	display: block;
 	width: 50%;
-	height: 144%;
+	height: 140%;
 	background-color: #ee5d30;
 	position: absolute;
-	top: -16%;
+	top: -14.6%;
 	right: 0;
 	z-index: -1;
 }
