@@ -137,8 +137,8 @@ body{
 
 .containere {
 	margin: 0 auto;
-	/*max-width: 70%;*/
 	max-width: 1333px;
+	overflow: hidden;
 }
 
 a{
@@ -216,6 +216,7 @@ li{
 	font-size: 16px;
 	color: #1a1a1a;
 	margin-left: 36px;
+	transition:color .3s linear;
 }
 
 
@@ -230,18 +231,18 @@ li{
 }
 
 .soc_ikons{
-	width: 12%;
+	display: flex;
+	width: 15%;
 	padding-top: 3.8%;
-	margin-left: 31.8%;
+	margin-left: 29%;
 }
 
-.soc_ikons img{
-	margin-right: 12%;
+.soc_ikons a{
+	width: 4%;
+	display: inline-block;
 }
 
-.soc_ikons img:last-child{
-	margin-right: 0%;
-}
+
 
 /*///////showcase////////////////////////////
 /////////////////////////////////////////*/
@@ -311,21 +312,17 @@ h1{
 
 /*////what_makes_us_awesome//////////////////////
 /////////////////////////////////*/
-.what_makes_us_awesome{
-	margin-top: 4.8%;
-}
-
 .what_makes_us_awesome h2{
 	color: #333333;
 	width: 21%;
-	margin-top: -12.7%;
+	margin-top: 17%;
 }
 
 .what_makes_us_awesome .bt{
 	margin-top: 3.4%;
 	color: #ffffff;
 	background-color: #2f2339;
-	margin-left: .5%;
+	margin-left: .1%;
 }
 
 .what_makes_us_awesome .bt:hover{
@@ -338,8 +335,9 @@ h1{
 	display: flex;
 	flex-wrap: wrap;
 	background-color:#f56131;
-	width: 96%;
-	margin-left:26%;
+	width: 100%;
+	margin-left:25.5%;
+	margin-top: -32.4%;
 }
 
 .box_little{
@@ -401,12 +399,13 @@ h1{
 	width: 100%;
 	display: flex;
 	margin-left: 32.6%;
-	margin-top: -7%;
+	margin-top: 2%;
 }
 
 .text_box_lit{
 	color: #333333;
 	width: 17%;
+	margin-bottom: 7%;
 	margin-right: 8%;
 }
 
@@ -419,7 +418,7 @@ h1{
 /*/////ipad/////////////////////////////
 ///////////////////////////////////////////*/
 .ipad{
-	margin-top: 11%;
+	margin-top: 6.3%;
 	position: relative;
 }
 
@@ -470,7 +469,6 @@ h1{
 /*///smart_wotch///////////////
 /////////////////////////////*/
 .smart_wotch{
-	margin-top: 9%;
 	position: relative;
 }
 
@@ -478,32 +476,34 @@ h1{
 	content: "";
 	display: block;
 	width: 100%;
-	height: 114%;
+	height: 53.5%;
 	background-color: #ee5d30;
 	position: absolute;
-	top: 26.4%;
+	top: 34.5%;
 	z-index: -1;
 
 }
 
 .smart_wotch img{
 	display: block;
+	margin-top: 13%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .smart_wotch h2{
 	color: #ffffff;
-	margin-left: 10.5%;
 	width: 17%;
-	margin-top: -26.6%;
+	position: absolute;
+	margin-left: 7%;
+	margin-top: -18.8%;
 }
 
 
 /*/////iphone/////////////////////////
 /////////////////////////////////////*/
 .iphone{
-	margin-top: 17%;
+	margin-top: 4.5%;
 	position: relative;
 	color: #ffffff;
 }
@@ -515,7 +515,7 @@ h1{
 
 .iphone h2{
 	margin-left: 50%;
-	margin-top: -48.5%;
+	margin-top: -49%;
 }
 
 .box_02{
@@ -538,10 +538,10 @@ h1{
 	content: "";
 	display: block;
 	width: 67%;
-	height: 121%;
+	height: 112.5%;
 	background-color: #2f2339;
 	position: absolute;
-	top: 1%;
+	top: .5%;
 	right: 0;
 	z-index: -1;
 }
@@ -550,7 +550,7 @@ h1{
 /*//////we_are-creative_orang//////////////////////
 //////////////////////////////////*/
 .we_are-creative_orang{
-	margin-top: 12.5%;
+	margin-top: 9%;
 	position: relative;
 }
 
@@ -565,17 +565,17 @@ h1{
 	width: 35%;
 	color: #262626;
 	margin-right: 1.5%;
-	margin-bottom: 3.5%;
+	margin-bottom: 2.9%;
 }
 
 .box_other_thims_little p:nth-child(2){
 	font-size: 25px;
-	margin-top: 4.6%;
+	margin-top: 9%;
 	margin-bottom: 3.5%;
 }
 
 .box_other_thims_little p:nth-child(3){
-	width: 80%;
+	width: 100%;
 	letter-spacing: 1px;
 	line-height: 24px;
 }
@@ -583,8 +583,8 @@ h1{
 .we_are-creative_orang h2{
 	color: #ffffff;
 	width: 30%;
-	margin-left: 60%;
-	margin-top: -44.2%;
+	margin-left: 59.8%;
+	margin-top: -45%;
 }
 
 .collor_03 p{
@@ -607,6 +607,7 @@ h1{
 	background-color: #2f2339;
 	margin-left: 61.3%;
 	color: #ffffff;
+	margin-bottom: 7%;
 }
 
 .collor_03 .bt:hover{
@@ -618,10 +619,10 @@ h1{
 	content: "";
 	display: block;
 	width: 50%;
-	height: 140%;
+	height: 122.2%;
 	background-color: #ee5d30;
 	position: absolute;
-	top: -14.6%;
+	top: -12%;
 	right: 0;
 	z-index: -1;
 }
@@ -633,7 +634,7 @@ h1{
 	background-image: url(../img/background_img/background_img_3.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-top: 8%;
+	margin-top: 3.5%;
 	text-align: center;
 	padding-top: 6.3%;
 	padding-bottom: 6%;
@@ -772,12 +773,13 @@ form{
 	font-weight: 800;
 	font-size: 18px;
 	text-transform: uppercase;
-	margin-top: -31%;
+	margin-top: -31.4%;
 	margin-left: 51.4%;
 	margin-bottom: 3%;
 }
 
 label{
+	color: #585858;
 	display: block;
 	font-family: 'Lato';
 	font-size: 17px;
@@ -830,12 +832,14 @@ button{
 	text-transform: uppercase;
 	margin-top: 1.8%;
 	margin-left: 13.2%;
+	margin-bottom: 1px;
 	outline: none;
+	transition: color .5s, background-color .5s, border .5s linear;
 }
 
 button:hover{
 	color: #333333;
-	border: 1px #333333 solid;
+	outline: 1px solid #666;
 	background-color: #ffffff;
 }
 
@@ -868,3 +872,5 @@ footer p{
 	font-weight: 300;
 	font-size: 18px;
 }
+
+
