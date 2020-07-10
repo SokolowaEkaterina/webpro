@@ -1,0 +1,70 @@
+@media screen and (max-width:1460px){
+    .smart_wotch h2{
+        margin-top: -25%;
+    }
+}
+
+/*1300////////////////////////////////////
+/////////////////////////////////////////////*/
+@media screen and (max-width:1300px) {
+	.containere h1{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:1300px) {
+	.showcase p{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:1300px) {
+	.showcase a{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width:1300px) {
+	nav{
+		margin-right: 3%;
+	}
+}
+
+@media screen and (max-width:1300px){
+    .box {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .what_makes_us_awesome h2, .what_makes_us_awesome .bt{
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .ipad h2, .box_with_words{
+        margin-left: 4%;
+    }
+}
+
+
+
+
+/*/1199/////////////////////////////////////////
+///////////////////////////////////////////////*/
+@media screen and (max-width:1199px) {
+	.containere h1{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 100%;
+	}
+}
