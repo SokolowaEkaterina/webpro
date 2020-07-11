@@ -31,6 +31,12 @@
 	}
 }
 
+@media screen and (max-width:1300px){
+	.logo{
+		margin-left: 3%;
+	}
+}
+
 @media screen and (max-width:1300px) {
 	nav{
 		margin-right: 3%;
@@ -66,5 +72,68 @@
 		margin-right: auto;
 		text-align: center;
 		width: 100%;
+	}
+}
+
+
+/*/1024/////////////////////////////////////////
+///////////////////////////////////////////////*/
+@media screen and (max-width:1024px){
+	.what_makes_us_awesome h2{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		width: 60%;
+		margin-top: 5%;
+		margin-bottom: 4%;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.box{
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.box_text{
+		padding: 0 3%;
+		margin-left: 0%;
+	}
+}
+
+@media screen and (max-width:1024px){
+	.box_little{
+		width: 33%;
+	}
+}
+
+@media screen and (max-width:1024px){
+	.text_box_lit{
+		width: 28%;
+		margin-bottom: 15%;
+	}
+}
+
+@media screen and (max-width:1024px){
+	.what_makes_us_awesome .bt{
+		position: absolute;
+		bottom: 0;
+		margin-left: 38%;
+	}
+}
+
+@media screen and (max-width:1024px){
+    .smart_wotch h2{
+		margin-top: -28%;
+		text-align: center;
+		width: 30%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .iphone h2, .box_02{
+		margin-left: 45%;
 	}
 }
