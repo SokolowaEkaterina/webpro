@@ -64,9 +64,23 @@
 
 
 
-/*/1199/////////////////////////////////////////
+/*/1200/////////////////////////////////////////
 ///////////////////////////////////////////////*/
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1200px){
+	.navigation{
+		display: none;  
+	}
+}
+
+@media screen and (max-width:1200px){
+	.menu-icon{
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+	}
+}
+
+@media screen and (max-width:1200px) {
 	.containere h1{
 		margin-left: auto;
 		margin-right: auto;
@@ -74,7 +88,6 @@
 		width: 100%;
 	}
 }
-
 
 /*/1024/////////////////////////////////////////
 ///////////////////////////////////////////////*/
