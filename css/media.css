@@ -1,3 +1,24 @@
+@media screen and (max-width:2560px){
+    .smart_wotch h2{
+		margin-top: -13%;
+		width: 10%;
+    }
+}
+
+@media screen and (max-width:2155px){
+    .smart_wotch h2{
+		margin-top: -15%;
+		width: 20%;
+    }
+}
+
+@media screen and (max-width:1920px){
+    .smart_wotch h2{
+		margin-top: -18%;
+		width: 20%;
+    }
+}
+
 @media screen and (max-width:1460px){
     .smart_wotch h2{
         margin-top: -25%;
@@ -133,7 +154,8 @@
 	.what_makes_us_awesome .bt{
 		position: absolute;
 		bottom: 0;
-		left: 35%;
+		left: 38%;
+		margin-left: 0;
 	}
 }
 
@@ -431,6 +453,27 @@
 }
 
 @media screen and (max-width:768px){
+	.after_email_email::before{
+		content: "";
+		display: block;
+		background-color: #ee5d30;
+		background-image: url(../img/ikons_im_ph_ad/1.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 77px;
+		height: 77px;
+		margin-top: 0%;
+		border-radius: 50%;
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom: 10%;
+		box-shadow: 4.5px 7.794px 21.5px rgba(0, 0, 0, 0.07);
+	}
+
+}
+
+@media screen and (max-width:768px){
 	.after_email_mobile::before{
 		content: "";
 		display: block;
@@ -451,6 +494,26 @@
 
 }
 
+@media screen and (max-width:768px){
+	.after_email_address::before{
+		content: "";
+		display: block;
+		background-color: #ee5d30;
+		background-image: url(../img/ikons_im_ph_ad/3.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 77px;
+		height: 77px;
+		margin-top: 0%;
+		border-radius: 50%;
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom: 10%;
+		box-shadow: 4.5px 7.794px 21.5px rgba(0, 0, 0, 0.07);
+	}
+
+}
 /*/////////////////////////*/
 @media screen and (max-width:768px){
 	.lab{
@@ -688,7 +751,7 @@
 
 @media screen and (max-width:426px){
 	.what_makes_us_awesome .bt{
-		left: 20%;
+		left: 25%;
 	}
 }
 
@@ -763,11 +826,42 @@
 @media screen and (max-width:426px){
 	button{
 		width: 50%;
+		margin-bottom: 10%;
 	}
 }
 
 @media screen and (max-width:426px){
 	footer p{
 		font-size: 14px;
+	}
+}
+
+
+/*/370-320/////////////////////////////////////
+////////////////////////////////////////*/
+@media screen and (max-width:375px){
+    .what_makes_us_awesome .bt{
+		margin-left: 0;
+		left: 20%;
+	}
+}
+
+@media screen and (max-width:350px){
+    button {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:320px){
+    .what_makes_us_awesome .bt{
+		margin-left: 0;
+		left: 15%;
+		
+	}
+}
+
+@media screen and (max-width:320px){
+	.mobile_v_box_little:last-child{
+		margin-bottom: 20%;
 	}
 }
