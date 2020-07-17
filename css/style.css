@@ -352,46 +352,6 @@ h1{
 	width: 24%;
 }
 
-
-.box .box_little .img_in:before{
-	content: url(../img/ikons/1.png);
-	display: block;
-	text-align: center;
-	padding-top: 20px;
-	width: 110px;
-	height: 85px;
-	border-radius: 50%;
-	background-color: #ffffff;
-	margin-top: 70%;
-	margin-bottom: 35%;
-}
-
-.box .box_little .img_in_2:before{
-	content: url(../img/ikons/2.png);
-	display: block;
-	text-align: center;
-	padding-top: 20px;
-	width: 110px;
-	height: 85px;
-	border-radius: 50%;
-	background-color: #ffffff;
-	margin-top: 70%;
-	margin-bottom: 35%;
-}
-
-.box .box_little .img_in_3:before{
-	content: url(../img/ikons/3.png);
-	display: block;
-	text-align: center;
-	padding-top: 20px;
-	width: 110px;
-	height: 85px;
-	border-radius: 50%;
-	background-color: #ffffff;
-	margin-bottom: 35%;
-	margin-top: 70%;
-}
-
 .box_little .img_in,
 .box_little .img_in_2,
 .box_little .img_in_3{
@@ -401,6 +361,31 @@ h1{
 	background-color: transparent;
 	margin-bottom: 16%;
 	margin-left: 29%;
+}
+
+.box_little .img_in::before,
+.box_little .img_in_2::before,
+.box_little .img_in_3::before{
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	width: 110px;
+	height: 85px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	margin-top: 70%;
+	margin-bottom: 35%;
+}
+
+.box_little .img_in:before{
+	content: url(../img/ikons/1.png);
+}
+
+.box_little .img_in_2:before{
+	content: url(../img/ikons/2.png);
+}
+.box_little .img_in_3:before{
+	content: url(../img/ikons/3.png);
 }
 
 .box_text{
@@ -707,58 +692,43 @@ h1{
 	margin-top: 7.5%;
 }
 
-.after_email{
-	position: relative;
-}
-.after_email::before{
+.after_email::before,
+.after_tel::before,
+.after_address::before{
 	content: "";
 	display: block;
 	background-color: #ee5d30;
-	background-image: url(../img/ikons_im_ph_ad/1.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 77px;
 	height: 77px;
 	border-radius: 50%;
 	position: absolute;
-	top: -20%;
 	box-shadow: 4.5px 7.794px 21.5px rgba(0, 0, 0, 0.07);
+}
+
+.after_email{
+	position: relative;
+}
+.after_email::before{
+	background-image: url(../img/ikons_im_ph_ad/1.png);
+	top: -20%;
 }
 
 .after_tel{
 	position: relative;
 }
 .after_tel::before{
-	content: "";
-	display: block;
-	background-color: #ee5d30;
 	background-image: url(../img/ikons_im_ph_ad/2.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 77px;
-	height: 77px;
-	border-radius: 50%;
-	position: absolute;
 	top: 10%;
-	box-shadow: 4.5px 7.794px 21.5px rgba(0, 0, 0, 0.07);
 }
 
 .after_address{
 	position: relative;
 }
 .after_address::before{
-	content: "";
-	display: block;
-	background-color: #ee5d30;
 	background-image: url(../img/ikons_im_ph_ad/3.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 77px;
-	height: 77px;
-	border-radius: 50%;
-	position: absolute;
 	top: 0%;
-	box-shadow: 4.5px 7.794px 21.5px rgba(0, 0, 0, 0.07);
 }
 
 .box_contact a{
